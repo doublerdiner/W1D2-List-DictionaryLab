@@ -20,6 +20,10 @@ for num in numbers:
         previous_small = num
 print(previous_large-previous_small)
 
+#largest = max(numbers)
+#smallest = min(numbers)
+#max - min
+
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 previous_num = 0
 for num in numbers:
