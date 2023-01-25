@@ -23,7 +23,7 @@ print(previous_large-previous_small)
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
 previous_num = 0
 for num in numbers:
-    if num == previous_num:
+    if num == 2 and previous_num == 2:
         print(True)
     previous_num = num
     
@@ -68,8 +68,6 @@ for num in numbers:
     else:
         total_2 += num
 print(total_2)
-        
-
 
 
 
